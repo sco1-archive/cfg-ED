@@ -17,7 +17,7 @@
 	<YawAxis>
 		<Binding Device="SaitekX55Joystick" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.05581493" />
 	</YawAxis>
 	<YawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -37,7 +37,7 @@
 	<RollAxis>
 		<Binding Device="SaitekX55Joystick" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.06221038" />
 	</RollAxis>
 	<RollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -50,7 +50,7 @@
 	<PitchAxis>
 		<Binding Device="SaitekX55Joystick" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.05581493" />
 	</PitchAxis>
 	<PitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -454,9 +454,13 @@
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="1" />
 	<GalaxyMapOpen>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX55Throttle" Key="Joy_14" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
+	<SystemMapOpen>
+		<Primary Device="SaitekX55Throttle" Key="Joy_15" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</SystemMapOpen>
 	<HeadLookToggle>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
