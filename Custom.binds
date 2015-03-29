@@ -93,13 +93,13 @@
 	</AheadThrust>
 	<ForwardThrustButton>
 		<Primary Device="SaitekX55Joystick" Key="Joy_11">
-			<Modifier Device="SaitekX55Joystick" Key="Joy_5" />
+			<Modifier Device="SaitekX55Joystick" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ForwardThrustButton>
 	<BackwardThrustButton>
 		<Primary Device="SaitekX55Joystick" Key="Joy_13">
-			<Modifier Device="SaitekX55Joystick" Key="Joy_5" />
+			<Modifier Device="SaitekX55Joystick" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton>
@@ -239,7 +239,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="SaitekX55Joystick" Key="Joy_6" />
+		<Primary Device="SaitekX55Joystick" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
@@ -270,13 +270,13 @@
 	</SelectTarget>
 	<CycleNextTarget>
 		<Primary Device="SaitekX55Joystick" Key="Joy_POV1Right">
-			<Modifier Device="SaitekX55Joystick" Key="Joy_5" />
+			<Modifier Device="SaitekX55Joystick" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextTarget>
 	<CyclePreviousTarget>
 		<Primary Device="SaitekX55Joystick" Key="Joy_POV1Left">
-			<Modifier Device="SaitekX55Joystick" Key="Joy_5" />
+			<Modifier Device="SaitekX55Joystick" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousTarget>
@@ -306,7 +306,7 @@
 	</TargetWingman2>
 	<SelectTargetsTarget>
 		<Primary Device="SaitekX55Joystick" Key="Joy_POV1Up">
-			<Modifier Device="SaitekX55Joystick" Key="Joy_5" />
+			<Modifier Device="SaitekX55Joystick" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTargetsTarget>
@@ -332,7 +332,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="SaitekX55Joystick" Key="Joy_4" />
+		<Primary Device="SaitekX55Joystick" Key="Joy_5" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
@@ -347,7 +347,7 @@
 		<Primary Device="SaitekX55Throttle" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHardpointToggle>
-	<DeployHardpointsOnFire Value="1" />
+	<DeployHardpointsOnFire Value="0" />
 	<ToggleButtonUpInput>
 		<Primary Device="SaitekX55Throttle" Key="Joy_10" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -421,15 +421,12 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
 	<PhotoCameraToggle>
-		<Primary Device="Keyboard" Key="Key_Space">
-			<Modifier Device="Keyboard" Key="Key_LeftControl" />
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-		</Primary>
+		<Primary Device="Keyboard" Key="Key_V" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PhotoCameraToggle>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<UIFocus>
-		<Primary Device="SaitekX55Joystick" Key="Joy_5" />
+		<Primary Device="SaitekX55Joystick" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus>
 	<FocusLeftPanel>
