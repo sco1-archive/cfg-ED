@@ -239,7 +239,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="SaitekX55Joystick" Key="Joy_4" />
+		<Primary Device="SaitekX55Throttle" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
@@ -344,7 +344,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
-		<Primary Device="SaitekX55Throttle" Key="Joy_4" />
+		<Primary Device="SaitekX55Joystick" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHardpointToggle>
 	<DeployHardpointsOnFire Value="0" />
