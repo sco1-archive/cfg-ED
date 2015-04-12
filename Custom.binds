@@ -241,7 +241,7 @@
 	<ToggleFlightAssist>
 		<Primary Device="SaitekX55Throttle" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
 		<Primary Device="SaitekX55Throttle" Key="Joy_1" />
