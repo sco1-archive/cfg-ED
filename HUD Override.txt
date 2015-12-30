@@ -1,3 +1,0 @@
-<MatrixRed> 0, 1, 1 </MatrixRed>
-<MatrixGreen> 1, 0, 0 </MatrixGreen>
-<MatrixBlue> 1, 0, 1 </MatrixBlue>

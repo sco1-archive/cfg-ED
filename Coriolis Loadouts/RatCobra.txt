@@ -1,0 +1,155 @@
+{
+  "$schema": "http://cdn.coriolis.io/schemas/ship-loadout/3.json#",
+  "name": "FuelRat",
+  "ship": "Cobra Mk III",
+  "references": [
+    {
+      "name": "Coriolis.io",
+      "url": "http://coriolis.io/outfit/cobra_mk_iii/02A4D4A3D2D3D4C------3443030101F1.Iw1-kA%3D%3D.Aw1-kA%3D%3D?bn=FuelRat",
+      "code": "02A4D4A3D2D3D4C------3443030101F1.Iw1-kA==.Aw1-kA==",
+      "shipId": "cobra_mk_iii"
+    }
+  ],
+  "components": {
+    "standard": {
+      "bulkheads": "Lightweight Alloy",
+      "cargoHatch": {
+        "enabled": true,
+        "priority": 1
+      },
+      "powerPlant": {
+        "class": 2,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1
+      },
+      "thrusters": {
+        "class": 4,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "frameShiftDrive": {
+        "class": 4,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1
+      },
+      "lifeSupport": {
+        "class": 3,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "powerDistributor": {
+        "class": 2,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "sensors": {
+        "class": 3,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "fuelTank": {
+        "class": 4,
+        "rating": "C",
+        "enabled": true,
+        "priority": 1
+      }
+    },
+    "hardpoints": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "utility": [
+      null,
+      null
+    ],
+    "internal": [
+      {
+        "class": 4,
+        "rating": "C",
+        "enabled": true,
+        "priority": 1,
+        "group": "Fuel Scoop"
+      },
+      {
+        "class": 3,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Generator"
+      },
+      {
+        "class": 4,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 2,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 2,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 1,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Fuel Transfer Limpet Controller"
+      }
+    ]
+  },
+  "stats": {
+    "class": 1,
+    "hullCost": 205800,
+    "speed": 280,
+    "boost": 400,
+    "boostEnergy": 11,
+    "agility": 6,
+    "baseShieldStrength": 80,
+    "baseArmour": 216,
+    "hullMass": 180,
+    "masslock": 8,
+    "pipSpeed": 0.13,
+    "shipCostMultiplier": 1,
+    "componentCostMultiplier": 1,
+    "fuelCapacity": 16,
+    "cargoCapacity": 24,
+    "ladenMass": 242.8,
+    "armourAdded": 0,
+    "armourMultiplier": 1,
+    "shieldMultiplier": 1,
+    "totalCost": 2324080,
+    "unladenMass": 202.8,
+    "totalDps": 0,
+    "armour": 216,
+    "powerAvailable": 9.6,
+    "powerRetracted": 7.87,
+    "powerDeployed": 7.87,
+    "unladenRange": 28.14,
+    "fullTankRange": 26.47,
+    "ladenRange": 23.85,
+    "unladenTotalRange": 153.74,
+    "ladenTotalRange": 138.08,
+    "maxJumpCount": 6,
+    "shieldStrength": 66.38,
+    "topSpeed": 290.9,
+    "topBoost": 415.57
+  }
+}
