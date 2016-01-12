@@ -1,0 +1,7 @@
+Altair             Solo         Buy: Skin
+Zeessze            Nicollier    Buy: Glue
+Rajukru            Snyder       Buy: Stoves              Sell: Skin, Glue, Chimes, Tea, Sticks
+HIP 80364          Stasheff     Buy: Organophosphates
+39 Tauri           Porta        Buy: Chimes
+Fujin              Futen        Buy: Tea                 Sell: Stoves, Organophosphates
+George Pantazis    Zamka        Buy: Sticks
