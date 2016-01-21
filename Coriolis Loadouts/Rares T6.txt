@@ -1,13 +1,13 @@
 {
   "$schema": "http://cdn.coriolis.io/schemas/ship-loadout/3.json#",
-  "name": "RatAsp",
-  "ship": "Asp Explorer",
+  "name": "Rares T6",
+  "ship": "Type-6 Transporter",
   "references": [
     {
       "name": "Coriolis.io",
-      "url": "http://coriolis.io/outfit/asp/02A4D5A4D4D5D5C----------3c-02-43F12f.Iw18WQ%3D%3D.Aw18WQ%3D%3D?bn=RatAsp",
-      "code": "02A4D5A4D4D5D5C----------3c-02-43F12f.Iw18WQ==.Aw18WQ==",
-      "shipId": "asp"
+      "url": "http://coriolis.io/outfit/type_6_transporter/03D4D4A2D3D2D4C-----040434-43--.Iw1-kA%3D%3D.Aw1-kA%3D%3D?bn=Rares%20T6",
+      "code": "03D4D4A2D3D2D4C-----040434-43--.Iw1-kA==.Aw1-kA==",
+      "shipId": "type_6_transporter"
     }
   ],
   "components": {
@@ -18,8 +18,8 @@
         "priority": 1
       },
       "powerPlant": {
-        "class": 2,
-        "rating": "A",
+        "class": 3,
+        "rating": "D",
         "enabled": true,
         "priority": 1
       },
@@ -30,31 +30,31 @@
         "priority": 1
       },
       "frameShiftDrive": {
-        "class": 5,
+        "class": 4,
         "rating": "A",
         "enabled": true,
         "priority": 1
       },
       "lifeSupport": {
-        "class": 4,
+        "class": 2,
         "rating": "D",
         "enabled": true,
         "priority": 1
       },
       "powerDistributor": {
-        "class": 4,
+        "class": 3,
         "rating": "D",
         "enabled": true,
         "priority": 1
       },
       "sensors": {
-        "class": 5,
+        "class": 2,
         "rating": "D",
         "enabled": true,
         "priority": 1
       },
       "fuelTank": {
-        "class": 5,
+        "class": 4,
         "rating": "C",
         "enabled": true,
         "priority": 1
@@ -62,33 +62,34 @@
     },
     "hardpoints": [
       null,
-      null,
-      null,
-      null,
-      null,
       null
     ],
     "utility": [
-      null,
       null,
       null,
       null
     ],
     "internal": [
       {
-        "class": 6,
-        "rating": "A",
-        "enabled": true,
-        "priority": 1,
-        "group": "Fuel Scoop"
-      },
-      null,
-      {
-        "class": 3,
+        "class": 5,
         "rating": "E",
         "enabled": true,
         "priority": 1,
         "group": "Cargo Rack"
+      },
+      {
+        "class": 5,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 4,
+        "rating": "C",
+        "enabled": true,
+        "priority": 1,
+        "group": "Fuel Scoop"
       },
       null,
       {
@@ -98,58 +99,45 @@
         "priority": 1,
         "group": "Shield Generator"
       },
-      {
-        "class": 1,
-        "rating": "D",
-        "enabled": true,
-        "priority": 1,
-        "group": "Fuel Transfer Limpet Controller"
-      },
-      {
-        "class": 1,
-        "rating": "C",
-        "enabled": true,
-        "priority": 1,
-        "group": "Scanner",
-        "name": "Advanced Discovery Scanner"
-      }
+      null,
+      null
     ]
   },
   "stats": {
     "class": 2,
-    "hullCost": 6135660,
-    "speed": 250,
-    "boost": 340,
-    "boostEnergy": 14,
-    "agility": 6,
-    "baseShieldStrength": 140,
-    "baseArmour": 378,
-    "hullMass": 280,
-    "masslock": 11,
-    "pipSpeed": 0.13,
+    "hullCost": 865790,
+    "speed": 220,
+    "boost": 350,
+    "boostEnergy": 11,
+    "agility": 3,
+    "baseShieldStrength": 90,
+    "baseArmour": 162,
+    "hullMass": 155,
+    "masslock": 8,
+    "pipSpeed": 0.15,
     "shipCostMultiplier": 1,
     "componentCostMultiplier": 1,
-    "fuelCapacity": 32,
-    "cargoCapacity": 8,
-    "ladenMass": 365.8,
+    "fuelCapacity": 16,
+    "cargoCapacity": 64,
+    "ladenMass": 257,
     "armourAdded": 0,
     "armourMultiplier": 1,
     "shieldMultiplier": 1,
-    "totalCost": 42032570,
-    "unladenMass": 325.8,
+    "totalCost": 3017260,
+    "unladenMass": 177,
     "totalDps": 0,
-    "armour": 378,
-    "powerAvailable": 9.6,
-    "powerRetracted": 8.73,
-    "powerDeployed": 8.73,
-    "unladenRange": 37.23,
-    "fullTankRange": 34.42,
-    "ladenRange": 33.67,
-    "unladenTotalRange": 240,
-    "ladenTotalRange": 234.53,
-    "maxJumpCount": 7,
-    "shieldStrength": 71.45,
-    "topSpeed": 244.73,
-    "topBoost": 332.83
+    "armour": 162,
+    "powerAvailable": 9,
+    "powerRetracted": 7.66,
+    "powerDeployed": 7.66,
+    "unladenRange": 32.17,
+    "fullTankRange": 30,
+    "ladenRange": 22.53,
+    "unladenTotalRange": 175.09,
+    "ladenTotalRange": 130.23,
+    "maxJumpCount": 6,
+    "shieldStrength": 85.81,
+    "topSpeed": 230.57,
+    "topBoost": 366.82
   }
 }
