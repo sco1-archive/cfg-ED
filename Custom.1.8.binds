@@ -16,9 +16,9 @@
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="0" />
 	<YawAxisRaw>
-		<Binding Device="SaitekX55Joystick" Key="Joy_RZAxis" />
+		<Binding Device="231D011D" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.05581493" />
+		<Deadzone Value="0.00000000" />
 	</YawAxisRaw>
 	<YawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -574,7 +574,7 @@
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
 		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookPitchAxisRaw>
 	<HeadLookYawLeft>
@@ -587,7 +587,7 @@
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
 		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
 	<CamPitchAxis>
